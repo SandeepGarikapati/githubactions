@@ -1,9 +1,12 @@
-def add(a,b):
+def add(a, b):
     print("Adding two numbers:")
-    return a+b
+    return a + b
 
-def  greet(name ):
- print("Hello, " +name)
+def greet(name):
+    print("Hello, " + name)
 
-add( 1,2 )
+# Function calls
+result = add(1, 2)
+print("Result:", result)
+
 greet("World")
