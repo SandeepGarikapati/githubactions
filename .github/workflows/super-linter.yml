@@ -1,9 +1,10 @@
 # This workflow executes several linters on changed files based on languages used in your code base whenever
-# you push a code or open a pull request.
+# you push code or open a pull request.
 #
 # You can adjust the behavior by modifying this file.
 # For more information, see:
 # https://github.com/github/super-linter
+
 name: Lint Code Base
 
 on:
@@ -29,3 +30,5 @@ jobs:
           VALIDATE_PYTHON: true           # ✅ Enable Python linting
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_LOCAL: true                 # Enables output to console
+          LOG_LEVEL: DEBUG                # Shows detailed output
