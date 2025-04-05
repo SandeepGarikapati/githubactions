@@ -12,4 +12,4 @@ result = add(1, 2)
 print("Result:", result)
 
 greet("World")
-greet(sandeep)
+greet("sam")
