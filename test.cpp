@@ -1,3 +1,4 @@
+// Copyright 2025 Rupa
 #include <iostream>
 
 int main() {
